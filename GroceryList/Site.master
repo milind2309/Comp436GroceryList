@@ -11,9 +11,9 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/site.css" rel="stylesheet" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-    <link href="Content/SideBar.css" rel="stylesheet" />
     <meta name="description" content="The description of my page" />
 </head>
 <body>
@@ -39,92 +39,57 @@
                 <%--Site Scripts--%>
             </Scripts>
         </asp:ScriptManager>
-        <script src="<%= Page.ResolveUrl("~/Scripts/sidebar.js") %>"></script>
-
-        <div id="wrapper">
-            <div class="overlay"></div>
-            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-
-
-                <!-- Sidebar -->
-
-                <ul class="nav sidebar-nav">
-                    <li class="sidebar-brand">
-                        <a href="#">Grocery List
-                    </a>
-                    </li>
-                    <li>
-                        <a href="#">Fruits</a>
-                    </li>
-                    <li>
-                        <a href="#">Vegetables</a>
-                    </li>
-                    <li>
-                        <a href="#">Dairy</a>
-                    </li>
-                    <li>
-                        <a href="#">Other</a>
-                    </li>
-
-                </ul>
-                <div class="container">
-                    <div>
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                    <div class="navbar-collapse collapse">
-                        <asp:LoginView runat="server" ViewStateMode="Disabled">
-                            <AnonymousTemplate>
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a runat="server" href="~/Account/Register">Register</a></li>
-                                    <li><a runat="server" href="~/Account/Login">Log in</a></li>
-                                </ul>
-                            </AnonymousTemplate>
-                            <LoggedInTemplate>
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %>!</a></li>
-                                    <li>
-                                        <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
-                                    </li>
-                                </ul>
-                            </LoggedInTemplate>
-                        </asp:LoginView>
-                    </div>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>                    
+                    <asp:HyperLink runat="server" CssClass="navbar-brand" NavigateUrl="~/" Text="Grocery List"></asp:HyperLink>                    
                 </div>
-
-            </nav>
-            <!-- /#sidebar-wrapper -->
-
-            <!-- Page Content -->
-            <div id="page-content-wrapper">
-                <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                    <span class="hamb-top"></span>
-                    <span class="hamb-middle"></span>
-                    <span class="hamb-bottom"></span>
-                </button>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <h1>Welcome to grocery Shopping.</h1>
-                            
-                        </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Register">Register</a></li>
+                                <li><a runat="server" href="~/Account/Login">Log in</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %>!</a></li>
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                    <div class="navbar-form navbar-right">
+                        <input type="text" class="form-control" placeholder="Search...">
                     </div>
                 </div>
             </div>
-            <!-- /#page-content-wrapper -->
+        </nav>
 
-        </div>
-        <!-- /#wrapper -->
-        <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3 col-md-2 sidebar">
+                    <ul class="nav nav-sidebar">
+                        <li class="active"><a href="Popular.aspx">Popular <span class="sr-only">(current)</span></a></li>
+                        <li><a href="Fruits.aspx">Fruits</a></li>
+                        <li><a href="Vegetables.aspx">Vegetables</a></li>
+                        <li><a href="Dairy.aspx">Dairy</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
         </div>
     </form>
 </body>

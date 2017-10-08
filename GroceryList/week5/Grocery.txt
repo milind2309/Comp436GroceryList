@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?><catalog>  <fruit>    <name> Apple</name>    <price>$ 1.50 </price>    <calories> 95 Calories</calories>    <type>Golden Delicious</type>  </fruit><fruit>    <name> Pinapple</name>    <price>$ 3 </price>    <calories> 452 Calories</calories>    <type> Red Spanish </type>  </fruit></catalog>
