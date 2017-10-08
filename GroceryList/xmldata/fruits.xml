@@ -1,9 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<fruits>
+﻿<fruits>
   <fruit id="1" popuplar="true" imagename="apple.jpg" calories="95" servingsize="182 g">
     Apple
   </fruit>
-  <fruit id="2">Orange</fruit>
+  <fruit id="2" imagename="orange.jpg">Orange</fruit>
   <fruit id="3" popuplar="true">Banana</fruit>
   <fruit id="4">Plum</fruit>
   <fruit id="5">Watermelon</fruit>
