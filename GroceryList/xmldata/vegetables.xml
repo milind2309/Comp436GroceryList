@@ -1,3 +1,83 @@
-﻿<vegetables>
-  
-</vegetables>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vegetables>
+	
+	<vegetable id="1" popuplar="true" imagename="cucumber.jpg" calories="10" servingsize=
+	            "100g"> Cucumber </vegetable>
+	
+    <vegetable id="2" imagename="green pepper.jpg" calories="20" servingsize=
+		"100g" > Green Pepper </vegetable>
+	
+	<vegetable id="3" imagename="onion.jpg" calories="40" servingsize=
+		"100g" > Onion </vegetable>
+	
+	
+	<vegetable id="4" imagename="garlic.jpg" calories="149" servingsize=
+		"100g" > Garlic </vegetable>
+	
+
+    <vegetable id="5" imagename="broccoli.jpg" calories="34" servingsize=
+		"100g" > Broccoli </vegetable>
+	
+    <vegetable id="6" imagename="tomato.jpg" calories="18" servingsize=
+		"100g" > Tomato </vegetable>
+	
+    <vegetable id="7" imagename="lettuce.jpg" calories="15" servingsize=
+		"100g" > Lettuce </vegetable>
+	
+    <vegetable id="8" imagename="corn.jpg" calories="365" servingsize=
+		"100g" > Corn</vegetable>
+	
+	<vegetable id="9" imagename="potato.jpg" calories="77" servingsize=
+		"100g" > Potato</vegetable>
+	
+    <vegetable id="10" imagename="peas.jpg" calories="81" servingsize=
+		"100g" > Peas</vegetable>
+	
+   <vegetable id="11" imagename="cauliflower.jpg" calories="25" servingsize=
+ 		"100g" > Cauliflower</vegetable>
+	
+   <vegetable id="12" imagename="ginger.jpg" calories="80" servingsize=
+		"100g" > Ginger</vegetable>
+	
+   <vegetable id="13" imagename="radish.jpg" calories="16" servingsize=
+		"100g" > Radish</vegetable>
+	
+  <vegetable id="14" imagename="arugula.jpg" calories="25" servingsize=
+		"100g" > Arugula</vegetable>
+	
+  <vegetable id="15" imagename="spinach.jpg" calories="23" servingsize=
+		"100g" > Spinach</vegetable>
+	
+  <vegetable id="16" imagename="mushroom.jpg" calories="22" servingsize=
+		"100g" > Mushroom</vegetable>
+	
+  <vegetable id="17" imagename="celery.jpg" calories="16" servingsize=
+		"100g" >Celery</vegetable>
+	
+  <vegetable id="18" imagename="carrot.jpg" calories="41" servingsize=
+		"100g" > Carrot</vegetable>
+	
+ <vegetable id="19" imagename="eggplant.jpg" calories="25" servingsize=
+		"100g" >Eggplant</vegetable>
+	
+ <vegetable id="20" imagename="zucchini.jpg" calories="17" servingsize=
+ 		"100g" > Zucchini</vegetable>
+	
+ <vegetable id="21" imagename="coriander.jpg" calories="23" servingsize=
+		"100g" > Coriander</vegetable>
+	
+ <vegetable id="22" imagename="parsley.jpg" calories="36" servingsize=
+		"100g" > Parsley</vegetable>
+	
+ <vegetable id="23" imagename="cabbage.jpg" calories="25" servingsize=
+		"100g" > Cabbage</vegetable>
+	
+ <vegetable id="24" imagename="asparagus.jpg" calories="20" servingsize=
+ 		"100g" > Asparagus</vegetable>
+	
+ <vegetable id="25" imagename="scallion.jpg" calories="32" servingsize=
+		"100g" > Scallion</vegetable>
+	
+
+ </vegetables>
