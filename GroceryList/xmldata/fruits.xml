@@ -1,9 +1,19 @@
 ﻿<fruits>
-  <fruit id="1" popuplar="true" imagename="apple.jpg" calories="95" servingsize="182 g">
-    Apple
+  <fruit id="1" popular="true" imagename="apple.jpg">
+    <name>Apple</name>
+    <servingsize>1 medium (3" dia) (182 g)</servingsize>
+    <calories>95</calories>
+    <fat>0.3 g</fat>
+    <cholesterol>0 mg</cholesterol>
+    <sodium>2 mg</sodium>
+    <potassium>195 mg</potassium>
+    <carbs>25 g</carbs>
+    <protein>0.5 g</protein>
   </fruit>
-  <fruit id="2" imagename="orange.jpg">Orange</fruit>
-  <fruit id="3" popuplar="true">Banana</fruit>
+  <fruit id="2" imagename="orange.jpg">
+    <name>Orange</name>
+  </fruit>
+  <fruit id="3" popular="true" imagename="banana.jpg">Banana</fruit>
   <fruit id="4">Plum</fruit>
   <fruit id="5">Watermelon</fruit>
 </fruits>

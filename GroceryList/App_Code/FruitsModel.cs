@@ -20,5 +20,11 @@ public class FruitsModel
     public string Calories { get; set; }
     public string ServingSize { get; set; }
     public string ImageName { get; set; }
+    public string Fat { get; set; }
+    public string Cholesterol { get; set; }
+    public string Sodium { get; set; }
+    public string Potassium { get; set; }
+    public string Carbs { get; set; }
+    public string Protein { get; set; }    
     
 }

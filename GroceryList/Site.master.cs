@@ -66,6 +66,23 @@ public partial class SiteMaster : MasterPage
 
     protected void Page_Load(object sender, EventArgs e)
     {
+        SetCurrentPage();
+    }
+
+    private void SetCurrentPage()
+    {
+        if (HttpContext.Current.Request.Url.AbsolutePath.ToLower().Contains("fruits"))
+        {
+            lnkFruits.Attributes["class"] = "active";
+        }
+        else if (HttpContext.Current.Request.Url.AbsolutePath.ToLower().Contains("vegetables"))
+        {
+            lnkVegetables.Attributes["class"] = "active";
+        }
+        else if (HttpContext.Current.Request.Url.AbsolutePath.ToLower().Contains("popular"))
+        {
+            lnkPopular.Attributes["class"] = "active";
+        }
 
     }
 

@@ -100,6 +100,12 @@ body {
   margin-bottom: 20px;
 }
 .placeholder img {
-  display: inline-block;
-  border-radius: 50%;
+    display: inline-block;    
+    border: 1px solid #ccc;
+    padding: 18px;
+    height: 180px !important;
 }
+
+    .placeholder img:hover {
+        border-color: #2c2c2c;
+    }

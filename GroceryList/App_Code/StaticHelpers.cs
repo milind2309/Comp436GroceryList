@@ -27,4 +27,10 @@ public static class StaticHelpers
         return stream;
     }
 
+    public static string ToInnerText(this XmlNode node)
+    {
+        if (node == null) return string.Empty;
+        return node.InnerText;
+    }
+
 }

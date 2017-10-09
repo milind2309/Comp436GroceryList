@@ -11,14 +11,15 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
-    <link href="Content/bootstrap.min.css" rel="stylesheet" />
-    <link href="Content/site.css" rel="stylesheet" />
+    <link href="<%= Page.ResolveUrl("~/Content/bootstrap.min.css") %>" rel="stylesheet" />     
+    <link href="<%= Page.ResolveUrl("~/Content/site.css") %>" rel="stylesheet" />     
+    <link href="<%= Page.ResolveUrl("~/Content/sweetalert2.min.css") %>" rel="stylesheet" />     
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="description" content="The description of my page" />
 </head>
 <body>
     <form runat="server">
-        <asp:ScriptManager runat="server">
+        <asp:ScriptManager runat="server" EnablePageMethods="true">
             <Scripts>
                 <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
                 <%--Framework Scripts--%>
@@ -78,10 +79,18 @@
             <div class="row">
                 <div class="col-sm-3 col-md-2 sidebar">
                     <ul class="nav nav-sidebar">
-                        <li class="active"><a href="Popular.aspx">Popular <span class="sr-only">(current)</span></a></li>
-                        <li><a href="Fruits.aspx">Fruits</a></li>
-                        <li><a href="Vegetables.aspx">Vegetables</a></li>
-                        <li><a href="Dairy.aspx">Dairy</a></li>
+                        <li ID="lnkPopular" runat="server">
+                            <asp:HyperLink runat="server" Text="Popular" NavigateUrl="~/Popular.aspx"></asp:HyperLink>
+                        </li>
+                        <li ID="lnkFruits" runat="server">
+                            <asp:HyperLink  runat="server" Text="Fruits" NavigateUrl="~/Fruits.aspx"></asp:HyperLink>
+                        </li>
+                        <li ID="lnkVegetables" runat="server">
+                            <asp:HyperLink  runat="server" Text="Vegetables" NavigateUrl="~/Vegetables.aspx"></asp:HyperLink>
+                        </li>
+                        <li id="lnkDairy" runat="server">
+                            <asp:HyperLink runat="server" Text="Dairy" NavigateUrl="~/Dairy.aspx"></asp:HyperLink>                        
+                        </li>
                     </ul>
                 </div>
                 <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
@@ -91,6 +100,9 @@
                 </div>
             </div>
         </div>
+        <script src="<%= Page.ResolveUrl("~/Scripts/sweetalert2.all.min.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/Scripts/ajaxMod.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/Scripts/site.js") %>"></script>
     </form>
 </body>
 </html>
