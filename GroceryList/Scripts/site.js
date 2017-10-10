@@ -6,7 +6,7 @@
         });
     }
 
-    function initPageEvents() {
+    function initFruitPageEvents() {
         $(document).on("click", ".lnk-fruit-details", function () {
             var id = $(this).attr("data-id");
             AjaxMod.POST("Fruits.aspx/GetFruitDetails", { id: id }, "json", function (result) {
@@ -18,8 +18,21 @@
         });
     }
 
+    function initVegetablePageEvents() {
+        $(document).on("click", ".lnk-vegetable-details", function () {
+            var id = $(this).attr("data-id");
+            AjaxMod.POST("Vegetables.aspx/GetVegetableDetails", { id: id }, "json", function (result) {
+                if (!result) return;
+                var vegetable = {};//empty object
+                try { vegetable = $.parseJSON(result.d); } catch (ex) { vegetable = {}; }
+                GroceryList.DisplayNutritionData(vegetable);
+            });
+        });
+    }
+
     $(document).ready(function () {
-        initPageEvents();
+        initFruitPageEvents();
+        initVegetablePageEvents();
     });
 
     return {
