@@ -1,83 +1,291 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
 <vegetables>
-	
-	<vegetable id="1" popuplar="true" imagename="cucumber.jpg" calories="10" servingsize=
-	            "100g"> Cucumber </vegetable>
-	
-    <vegetable id="2" imagename="green pepper.jpg" calories="20" servingsize=
-		"100g" > Green Pepper </vegetable>
-	
-	<vegetable id="3" imagename="onion.jpg" calories="40" servingsize=
-		"100g" > Onion </vegetable>
-	
-	
-	<vegetable id="4" imagename="garlic.jpg" calories="149" servingsize=
-		"100g" > Garlic </vegetable>
-	
+  
+  <vegetable id="1" popuplar="true" imagename="cucumber.jpg">
+    <name>Cucumber</name>
+    <servingsize>1 medium (201g)</servingsize>
+    <calories> 24 </calories>
+    <fat> 0.32g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 4 mg</sodium>
+    <potassium> 273 mg </potassium>
+    <carbs> 4.34g </carbs>
+    <protein> 1.19g </protein>
+  </vegetable>
+  
+  <vegetable id="2" imagename="green pepper.jpg" >
+    <name>Green Pepper</name>
+    <servingsize>1 medium (approx 2-3/4"long,2-1/2"dia)( 119g)</servingsize>
+    <calories> 24 </calories>
+    <fat> 0.2g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 4 mg</sodium>
+    <potassium> 208 mg </potassium>
+    <carbs> 5.52g </carbs>
+    <protein> 1.02g </protein>
+  </vegetable>
+  
+  <vegetable id="3" imagename="onion.jpg" >
+    <name>Onion</name>
+    <servingsize>1 medium (2-1/2"dia)( 110g)</servingsize>
+    <calories> 46 </calories>
+    <fat> 0.09g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 3mg</sodium>
+    <potassium> 158 mg </potassium>
+    <carbs> 11.12g </carbs>
+    <protein> 1.01g </protein>
+  </vegetable>
+  
+  <vegetable id="4" imagename="garlic.jpg" >
+    <name>Garlic</name>
+    <servingsize> 1 clove (3g)</servingsize>
+    <calories> 4 </calories>
+    <fat> 0.02g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 1mg</sodium>
+    <potassium> 12mg </potassium>
+    <carbs> 0.99g </carbs>
+    <protein> 0.19g </protein>
+  </vegetable>
+  
+  <vegetable id="5" imagename="broccoli.jpg" >
+    <name>Broccoli</name>
+    <servingsize> 1 bunch (608g)</servingsize>
+    <calories> 207</calories>
+    <fat> 2.25g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 201mg</sodium>
+    <potassium> 1921mg </potassium>
+    <carbs> 40.37g </carbs>
+    <protein> 17.15g </protein>
+  </vegetable>
+  
+  <vegetable id="6" imagename="tomato.jpg" >
+    <name>Tomato</name>
+    <servingsize>1 medium(2-3/5"dia)( 123g)</servingsize>
+    <calories> 22 </calories>
+    <fat> 0.2g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 6.2mg</sodium>
+    <potassium> 291.5 mg </potassium>
+    <carbs> 4.8g </carbs>
+    <protein> 1.1g </protein>
+  </vegetable>
+  
+  <vegetable id="7" imagename="lettuce.jpg" >
+    <name>Lettuce</name>
+    <servingsize> 1 medium head (6" dia)</servingsize>
+    <calories> 75</calories>
+    <fat> 0.75g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 54mg</sodium>
+    <potassium> 760mg </potassium>
+    <carbs> 16.01g </carbs>
+    <protein> 4.85g </protein>
+  </vegetable>
+  
+  <vegetable id="8" imagename="corn.jpg" >
+    <name>Corn</name>
+    <servingsize> 1 ounce of Plain Corn Cones.</servingsize>
+    <calories> 145</calories>
+    <fat> 7.63g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 290mg</sodium>
+    <potassium> 23mg </potassium>
+    <carbs> 17.83g </carbs>
+    <protein> 1.64g </protein>
+  </vegetable>
+  
+  <vegetable id="9" imagename="potato.jpg" >
+    <name>Potato</name>
+    <servingsize> 1 Potato medium (2-1/4" to 3-1/4" dia) (213.0 g)</servingsize>
+    <calories> 164</calories>
+    <fat> 0.2g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 12.8mg</sodium>
+    <potassium>896.7mg </potassium>
+    <carbs> 37.2g </carbs>
+    <protein> 4.3g </protein>
+  </vegetable>
 
-    <vegetable id="5" imagename="broccoli.jpg" calories="34" servingsize=
-		"100g" > Broccoli </vegetable>
-	
-    <vegetable id="6" imagename="tomato.jpg" calories="18" servingsize=
-		"100g" > Tomato </vegetable>
-	
-    <vegetable id="7" imagename="lettuce.jpg" calories="15" servingsize=
-		"100g" > Lettuce </vegetable>
-	
-    <vegetable id="8" imagename="corn.jpg" calories="365" servingsize=
-		"100g" > Corn</vegetable>
-	
-	<vegetable id="9" imagename="potato.jpg" calories="77" servingsize=
-		"100g" > Potato</vegetable>
-	
-    <vegetable id="10" imagename="peas.jpg" calories="81" servingsize=
-		"100g" > Peas</vegetable>
-	
-   <vegetable id="11" imagename="cauliflower.jpg" calories="25" servingsize=
- 		"100g" > Cauliflower</vegetable>
-	
-   <vegetable id="12" imagename="ginger.jpg" calories="80" servingsize=
-		"100g" > Ginger</vegetable>
-	
-   <vegetable id="13" imagename="radish.jpg" calories="16" servingsize=
-		"100g" > Radish</vegetable>
-	
-  <vegetable id="14" imagename="arugula.jpg" calories="25" servingsize=
-		"100g" > Arugula</vegetable>
-	
-  <vegetable id="15" imagename="spinach.jpg" calories="23" servingsize=
-		"100g" > Spinach</vegetable>
-	
-  <vegetable id="16" imagename="mushroom.jpg" calories="22" servingsize=
-		"100g" > Mushroom</vegetable>
-	
-  <vegetable id="17" imagename="celery.jpg" calories="16" servingsize=
-		"100g" >Celery</vegetable>
-	
-  <vegetable id="18" imagename="carrot.jpg" calories="41" servingsize=
-		"100g" > Carrot</vegetable>
-	
- <vegetable id="19" imagename="eggplant.jpg" calories="25" servingsize=
-		"100g" >Eggplant</vegetable>
-	
- <vegetable id="20" imagename="zucchini.jpg" calories="17" servingsize=
- 		"100g" > Zucchini</vegetable>
-	
- <vegetable id="21" imagename="coriander.jpg" calories="23" servingsize=
-		"100g" > Coriander</vegetable>
-	
- <vegetable id="22" imagename="parsley.jpg" calories="36" servingsize=
-		"100g" > Parsley</vegetable>
-	
- <vegetable id="23" imagename="cabbage.jpg" calories="25" servingsize=
-		"100g" > Cabbage</vegetable>
-	
- <vegetable id="24" imagename="asparagus.jpg" calories="20" servingsize=
- 		"100g" > Asparagus</vegetable>
-	
- <vegetable id="25" imagename="scallion.jpg" calories="32" servingsize=
-		"100g" > Scallion</vegetable>
-	
+  <vegetable id="10" imagename="peas.jpg" >
+    <name>Peas</name>
+    <servingsize> 1 cup, whole (63.0 g)</servingsize>
+    <calories> 26.5 </calories>
+    <fat> 0.1g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium>2.5mg</sodium>
+    <potassium>126mg </potassium>
+    <carbs> 4.8 g </carbs>
+    <protein>1.8g </protein>
+  </vegetable>
+  <vegetable id="11" imagename="cauliflower.jpg">
+    <name>Cauliflower</name>
+    <servingsize> 1 head, medium (5-6" dia) (575.0 g)</servingsize>
+    <calories> 143.8 </calories>
+    <fat> 0.6 g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium>172.5 mg</sodium>
+    <potassium>1,742.3 mg </potassium>
+    <carbs> 30.5 g </carbs>
+    <protein>11.4 g</protein>
+  </vegetable>
+  <vegetable id="12" imagename="ginger.jpg" >
+    <name> Ginger</name>
+    <servingsize> 1/4 cup of slices of Ginger </servingsize>
+    <calories> 19 </calories>
+    <fat> 0.18g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium>3mg</sodium>
+    <potassium>100mg </potassium>
+    <carbs> 4.26g </carbs>
+    <protein>0.44g</protein>
+  </vegetable>
+  <vegetable id="13" imagename="radish.jpg" >
+    <name> Radish</name>
+    <servingsize> 1 medium (3/4" to 1" dia) (4.5 g) </servingsize>
+    <calories> 0.7 </calories>
+    <fat> 0.18g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium>1.8 mg</sodium>
+    <potassium>10.5 mg </potassium>
+    <carbs> 0.2 g </carbs>
+    <protein>0 g</protein>
+  </vegetable>
+  <vegetable id="14" imagename="arugula.jpg">
+    <name> Arugula</name>
+    <servingsize> 1 cup of Arugula. </servingsize>
+    <calories> 5 </calories>
+    <fat> 0.13 g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium>5 mg</sodium>
+    <potassium>74 mg </potassium>
+    <carbs>0.73 g </carbs>
+    <protein>0.52g</protein>
 
- </vegetables>
+  </vegetable>
+  <vegetable id="15" imagename="spinach.jpg" >
+    <name> Spinach</name>
+    <servingsize> 1 cup of Spinach. </servingsize>
+    <calories> 7 </calories>
+    <fat> 0.12 g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium>24mg</sodium>
+    <potassium>167mg </potassium>
+    <carbs>1.09 g </carbs>
+    <protein>0.86 g</protein>
+  </vegetable>
+  <vegetable id="16" imagename="mushroom.jpg">
+    <name> Mushroom</name>
+    <servingsize> 1 cup of pieces or slices of Mushrooms. </servingsize>
+    <calories>15 </calories>
+    <fat> 0.24 g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 4mg</sodium>
+    <potassium>223 mg </potassium>
+    <carbs>2.3 g </carbs>
+    <protein>2.16 g</protein>
+  </vegetable>
+  <vegetable id="17" imagename="celery.jpg" >
+    <name> Celery</name>
+    <servingsize> 1 cup chopped of Celery. </servingsize>
+    <calories>14 </calories>
+    <fat> 0.17 g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 81 mg</sodium>
+    <potassium>263 mg </potassium>
+    <carbs> 3 g </carbs>
+    <protein>0.7 g</protein>
+  </vegetable>
+  <vegetable id="18" imagename="carrot.jpg" >
+    <name> Carrot</name>
+    <servingsize> 1 small (5-1/2" long) </servingsize>
+    <calories> 20 </calories>
+    <fat> 0.12 g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 34 mg</sodium>
+    <potassium>160 mg </potassium>
+    <carbs> 4.79 g </carbs>
+    <protein>0.46 g</protein>
+  </vegetable>
+  <vegetable id="19" imagename="eggplant.jpg" >
+    <name> Eggplant</name>
+    <servingsize> 1 eggplant, unpeeled (approx 1-1/4 lb) (548.0 g) </servingsize>
+    <calories> 131.5</calories>
+    <fat> 1 g </fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 11 mg </sodium>
+    <potassium>1,260.4 mg </potassium>
+    <carbs> 31.2 g </carbs>
+
+    <protein>5.5 g</protein>
+  </vegetable>
+  <vegetable id="20" imagename="zucchini.jpg">
+    <name> Zucchini</name>
+    <servingsize> 1 medium Zucchini(196 g) </servingsize>
+    <calories> 31</calories>
+    <fat> 0.35 g</fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 20 mg </sodium>
+    <potassium>514 mg </potassium>
+    <carbs> 6.57 g </carbs>
+    <protein>2.37 g</protein>
+  </vegetable>
+  <vegetable id="21" imagename="coriander.jpg" >
+    <name> Coriander</name>
+    <servingsize> a 1/4 cup of Coriander (Cilantro). </servingsize>
+    <calories> 1</calories>
+    <fat> 0.02 g</fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 2 mg </sodium>
+    <potassium> 21 mg </potassium>
+    <carbs>0.15 g </carbs>
+    <protein>0.09 g</protein>
+  </vegetable>
+  <vegetable id="22" imagename="parsley.jpg" >
+    <name> Parsley</name>
+    <servingsize> a 1/2 cup of Parsley. </servingsize>
+    <calories> 11</calories>
+    <fat> 0.24 g</fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 17 mg </sodium>
+    <potassium> 166 mg </potassium>
+    <carbs>1.9 g </carbs>
+    <protein> 0.89 g</protein>
+  </vegetable>
+  <vegetable id="23" imagename="cabbage.jpg" >
+    <name> Cabbage</name>
+    <servingsize> 1 head, medium (about 5-3/4" dia) (908.0 g)</servingsize>
+    <calories> 227</calories>
+    <fat> 0.9 g</fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 163.4 mg </sodium>
+    <potassium> 1,543.6 mg </potassium>
+    <carbs> 52.7 g </carbs>
+    <protein> 11.6 g</protein>
+  </vegetable>
+  <vegetable id="24" imagename="asparagus.jpg" >
+    <name> Asparagus</name>
+    <servingsize> 1 spear, medium (5-1/4" to 7" long) (16.0 g)</servingsize>
+    <calories> 4 </calories>
+    <fat> 0 g</fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 0.3 mg </sodium>
+
+    <potassium> 32.3 mg </potassium>
+    <carbs> 0.6 g </carbs>
+    <protein> 0.4 g</protein>
+  </vegetable>
+  <vegetable id="25" imagename="scallion.jpg" >
+    <name> Scallion</name>
+    <servingsize> 1 cup of chopped Scallions or Spring Onions.</servingsize>
+    <calories> 32</calories>
+    <fat> 0.19 g</fat>
+    <cholesterol> 0 mg </cholesterol>
+    <sodium> 16 mg </sodium>
+    <potassium> 276 mg </potassium>
+    <carbs> 7.34 g </carbs>
+    <protein> 1.83 g</protein>
+  </vegetable>
+
+</vegetables>

@@ -69,8 +69,8 @@
                         </LoggedInTemplate>
                     </asp:LoginView>
                     <div class="navbar-form navbar-right">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <input name="go" type="submit" value="Go" id="btn"  class="btn btn-default"/>
+                        <asp:TextBox ID="txtSiteSearch" runat="server" CssClass="form-control" placeholder="Search"></asp:TextBox>
+                        <asp:Button ID="btnSearch" runat="server" Text="Go" OnClick="btnSearch_Click" CssClass="btn btn-default" />                        
                     </div>
                 </div>
             </div>

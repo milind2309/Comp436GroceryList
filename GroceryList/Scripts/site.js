@@ -30,9 +30,23 @@
         });
     }
 
+
+    function initDairyPageEvents() {
+        $(document).on("click", ".lnk-dairy-details", function () {
+            var id = $(this).attr("data-id");
+            AjaxMod.POST("Dairy.aspx/GetDairyProductDetails", { id: id }, "json", function (result) {
+                if (!result) return;
+                var dairy = {};//empty object
+                try { dairy = $.parseJSON(result.d); } catch (ex) { dairy = {}; }
+                GroceryList.DisplayNutritionData(dairy);
+            });
+        });
+    }
+
     $(document).ready(function () {
         initFruitPageEvents();
         initVegetablePageEvents();
+        initDairyPageEvents();
     });
 
     return {

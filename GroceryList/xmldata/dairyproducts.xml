@@ -1,3 +1,88 @@
 ﻿<dairyproducts>
- 
+    <dairy id="1" popular="true" imagename="milk.jpg">
+      <name>Milk</name>
+      <type>1% fat</type>
+      <servingsize>1 cup (244 g)</servingsize>
+      <calories>103</calories>
+      <fat>2.4 g</fat>
+      <cholesterol>12 mg</cholesterol>
+      <sodium>107 mg</sodium>
+      <potassium>366 mg</potassium>
+      <carbs>12 g</carbs>
+      <protein>8 g</protein>
+    </dairy>
+
+    <dairy id="2" popular="true" imagename="eggs.jpg">
+      <name>Egg</name>
+      <servingsize>1 large (50 g)</servingsize>
+      <calories>72</calories>
+      <fat>4.8 g</fat>
+      <cholesterol>186 mg</cholesterol>
+      <sodium>71 mg</sodium>
+      <potassium>69 mg</potassium>
+      <carbs>0.4 g</carbs>
+      <protein>6 g</protein>
+    </dairy>
+
+    <dairy id="3" popular="true" imagename="yogurt.jpg">
+      <name>Yogurt</name>
+      <type>nonfat</type>
+      <servingsize>1 container (170 g)</servingsize>
+      <calories>100</calories>
+      <fat>0.7 g</fat>
+      <cholesterol>9 mg</cholesterol>
+      <sodium>61 mg</sodium>
+      <potassium>240 mg</potassium>
+      <carbs>6 g</carbs>
+      <protein>17 g</protein>
+    </dairy>
+
+    <dairy id="4" popular="true" imagename="butter.jpg">
+      <name>Butter</name>
+      <servingsize>1 stick (113 g)</servingsize>
+      <calories>810</calories>
+      <fat>92 g</fat>
+      <cholesterol>243 mg</cholesterol>
+      <sodium>12 mg</sodium>
+      <potassium>27 mg</potassium>
+      <carbs>0.1 g</carbs>
+      <protein>1 g</protein>
+    </dairy>
+
+    <dairy id="5" popular="true" imagename="cheese.jpg">
+      <name>Cheese</name>
+      <servingsize>100g</servingsize>
+      <calories>380</calories>
+      <fat>28 g</fat>
+      <cholesterol>92 mg</cholesterol>
+      <sodium>192 mg</sodium>
+      <potassium>77 mg</potassium>
+      <carbs>5 g</carbs>
+      <protein>27 g</protein>
+    </dairy>
+
+    <dairy id="6" popular="true" imagename="chocolateicecream.jpg">
+      <name>Chocolate Icecream</name>
+      <servingsize>1 serving 1/2 cup (66 g)</servingsize>
+      <calories>143</calories>
+      <fat>7 g</fat>
+      <cholesterol>22 mg</cholesterol>
+      <sodium>50 mg</sodium>
+      <potassium>164 mg</potassium>
+      <carbs>5 g</carbs>
+      <protein>2.5 g</protein>
+    </dairy>
+
+    <dairy id="7" popular="true" imagename="vanillaicecream.jpg">
+      <name>Vanilla icecream</name>
+      <servingsize>1 serving 1/2 cup (66 g)</servingsize>
+      <calories>137</calories>
+      <fat>7 g</fat>
+      <cholesterol>29 mg</cholesterol>
+      <sodium>53 mg</sodium>
+      <potassium>131 mg</potassium>
+      <carbs>16 g</carbs>
+      <protein>2.3 g</protein>
+    </dairy>
+
 </dairyproducts>

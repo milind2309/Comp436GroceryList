@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Xml;
+using System.Xml.Linq;
 using System.Xml.Serialization;
 
 /// <summary>
@@ -32,5 +33,11 @@ public static class StaticHelpers
         if (node == null) return string.Empty;
         return node.InnerText;
     }
+
+    public static string ToInnerValue(this XElement el)
+    {
+        if (el == null) return string.Empty;
+        return el.Value;
+    }    
 
 }

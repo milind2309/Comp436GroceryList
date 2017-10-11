@@ -90,4 +90,10 @@ public partial class SiteMaster : MasterPage
     {
         Context.GetOwinContext().Authentication.SignOut();
     }
+
+    protected void btnSearch_Click(object sender, EventArgs e)
+    {
+        string term = txtSiteSearch.Text;
+        Response.Redirect("~/SearchResults.aspx?term=" + term);
+    }
 }

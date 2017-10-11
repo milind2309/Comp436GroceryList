@@ -141,7 +141,7 @@
     <carbs>7 g</carbs>
     <protein>0.5 g</protein>
   </fruit>
-  <fruit id ="14" imagename="mango">
+  <fruit id ="14" imagename="mango.jpg">
     <name>Mango</name>
     <servingsize>1 fruit without refuse(336 g</servingsize>
     <calories>201</calories>
@@ -152,7 +152,7 @@
     <carbs>50 g</carbs>
     <protein>2.8 g</protein>
   </fruit>
-  <fruit id ="15" popular="true" imagename="orange">
+  <fruit id ="15" popular="true" imagename="orange.jpg">
     <name>Orange</name>
     <servingsize>1 small 92-3/8" dia) (96 g)</servingsize>
     <calories>45</calories>
@@ -163,7 +163,7 @@
     <carbs>11 g</carbs>
     <protein>0.9 g</protein>
   </fruit>
-  <fruit id ="16" imagename="grapefruit">
+  <fruit id ="16" imagename="grapefruit.jpg">
     <name>Grapefruit</name>
     <servingsize>1 NLEA serving (154g)</servingsize>
     <calories>65</calories>
@@ -173,7 +173,7 @@
     <carbs>16 g</carbs>
     <protein>1.2 g</protein>
   </fruit>
-  <fruit id ="17" imagename="peach">
+  <fruit id ="17" imagename="peach.jpg">
     <name>Peach</name>
     <servingsize>1 medium (2-2/3" dia) (150 g)</servingsize>
     <calories>59</calories>
@@ -184,7 +184,7 @@
     <carbs>14 g</carbs>
     <protein>1.4 g</protein>
   </fruit>
-  <fruit id ="18" imagename="plum">
+  <fruit id ="18" imagename="plum.jpg">
     <name>Plum</name>
     <servingsize>100 g</servingsize>
     <calories>45.89</calories>
@@ -194,7 +194,7 @@
     <iron>170 mcg</iron>
     <vitamink>6.4 mcg</vitamink>
   </fruit>
-  <fruit id =" 19" imagename="raspberry">
+  <fruit id ="19" imagename="raspberry.jpg">
     <name>Raspberry</name>
     <servingsize>1 cup (123)</servingsize>
     <calories>65</calories>
