@@ -12,7 +12,7 @@
     <protein> 1.19g </protein>
   </vegetable>
   
-  <vegetable id="2" imagename="green pepper.jpg" >
+  <vegetable id="2" popular="true" imagename="green pepper.jpg" >
     <name>Green Pepper</name>
     <servingsize>1 medium (approx 2-3/4"long,2-1/2"dia)( 119g)</servingsize>
     <calories> 24 </calories>
@@ -24,7 +24,7 @@
     <protein> 1.02g </protein>
   </vegetable>
   
-  <vegetable id="3" imagename="onion.jpg" >
+  <vegetable id="3" popular="true" imagename="onion.jpg" >
     <name>Onion</name>
     <servingsize>1 medium (2-1/2"dia)( 110g)</servingsize>
     <calories> 46 </calories>
@@ -36,7 +36,7 @@
     <protein> 1.01g </protein>
   </vegetable>
   
-  <vegetable id="4" imagename="garlic.jpg" >
+  <vegetable id="4" popular="true" imagename="garlic.jpg" >
     <name>Garlic</name>
     <servingsize> 1 clove (3g)</servingsize>
     <calories> 4 </calories>
@@ -60,7 +60,7 @@
     <protein> 17.15g </protein>
   </vegetable>
   
-  <vegetable id="6" imagename="tomato.jpg" >
+  <vegetable id="6" popular="true" imagename="tomato.jpg" >
     <name>Tomato</name>
     <servingsize>1 medium(2-3/5"dia)( 123g)</servingsize>
     <calories> 22 </calories>
@@ -96,7 +96,7 @@
     <protein> 1.64g </protein>
   </vegetable>
   
-  <vegetable id="9" imagename="potato.jpg" >
+  <vegetable id="9" popular="true" imagename="potato.jpg" >
     <name>Potato</name>
     <servingsize> 1 Potato medium (2-1/4" to 3-1/4" dia) (213.0 g)</servingsize>
     <calories> 164</calories>
@@ -253,7 +253,7 @@
     <carbs>1.9 g </carbs>
     <protein> 0.89 g</protein>
   </vegetable>
-  <vegetable id="23" imagename="cabbage.jpg" >
+  <vegetable id="23" popular="true" imagename="cabbage.jpg" >
     <name> Cabbage</name>
     <servingsize> 1 head, medium (about 5-3/4" dia) (908.0 g)</servingsize>
     <calories> 227</calories>

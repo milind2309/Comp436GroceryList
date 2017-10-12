@@ -50,6 +50,17 @@ public partial class SearchResults : System.Web.UI.Page
 
     private void FindVegetables(string term)
     {
+        string xml = File.ReadAllText(Server.MapPath("~/xmldata/vegetables.xml"));
+        var xDoc = XDocument.Parse(xml);
+        var vegetables = xDoc.Root.Elements("vegetable").Where(x => x.Element("name").Value.ToLower().Contains(term)).ToList();
 
+        foreach (XElement el in vegetables)
+        {
+            VegetablesData.Add(new VegetablesModel
+            {
+                Name = StaticHelpers.ToInnerValue(el.Element("name")),
+                ImageName = el.Attribute("imagename") != null ? el.Attribute("imagename").Value : string.Empty
+            });
+        }
     }
 }

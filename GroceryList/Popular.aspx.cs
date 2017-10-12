@@ -19,6 +19,7 @@ public partial class Popular : System.Web.UI.Page
     {
         LoadPopularFruits();
         LoadPopularVegetables();
+        LoadDairyProducts();
     }
 
     public void LoadPopularFruits()

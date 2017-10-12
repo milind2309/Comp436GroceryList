@@ -25,7 +25,7 @@
                         <% if (string.IsNullOrEmpty(veg.ImageName)) { %>
                          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
                         <% } else { %>
-                         <img src="<%= Page.ResolveUrl("~/Images/fruits/" + veg.ImageName) %>"  width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
+                         <img src="<%= Page.ResolveUrl("~/Images/vegetables/" + veg.ImageName) %>"  width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
                         <% } %>
                     </a>
                   <h4><%= veg.Name %></h4>
