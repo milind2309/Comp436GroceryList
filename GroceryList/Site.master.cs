@@ -83,6 +83,10 @@ public partial class SiteMaster : MasterPage
         {
             lnkPopular.Attributes["class"] = "active";
         }
+        else if (HttpContext.Current.Request.Url.AbsolutePath.ToLower().Contains("dairy"))
+        {
+            lnkDairy.Attributes["class"] = "active";
+        }
 
     }
 

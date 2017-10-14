@@ -13,7 +13,8 @@
     </asp:PlaceHolder>
     <link href="<%= Page.ResolveUrl("~/Content/bootstrap.min.css") %>" rel="stylesheet" />     
     <link href="<%= Page.ResolveUrl("~/Content/site.css") %>" rel="stylesheet" />     
-    <link href="<%= Page.ResolveUrl("~/Content/sweetalert2.min.css") %>" rel="stylesheet" />     
+    <link href="<%= Page.ResolveUrl("~/Content/sweetalert2.min.css") %>" rel="stylesheet" />
+    <link href="<%= Page.ResolveUrl("~/Content/jquery-ui.min.css") %>" rel="stylesheet" />     
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <meta name="description" content="The description of my page" />
 </head>
@@ -89,7 +90,7 @@
                         <li ID="lnkVegetables" runat="server">
                             <asp:HyperLink  runat="server" Text="Vegetables" NavigateUrl="~/Vegetables.aspx"></asp:HyperLink>
                         </li>
-                        <li id="lnkDairy" runat="server">
+                        <li ID="lnkDairy" runat="server">
                             <asp:HyperLink runat="server" Text="Dairy" NavigateUrl="~/Dairy.aspx"></asp:HyperLink>                        
                         </li>
                     </ul>
@@ -103,7 +104,13 @@
         </div>
         <script src="<%= Page.ResolveUrl("~/Scripts/sweetalert2.all.min.js") %>"></script>
         <script src="<%= Page.ResolveUrl("~/Scripts/ajaxMod.js") %>"></script>
+        <script src="<%= Page.ResolveUrl("~/Scripts/jquery-ui.min.js") %>"></script>
         <script src="<%= Page.ResolveUrl("~/Scripts/site.js") %>"></script>
+
+        <div id="nutrition-dialog">
+            
+        </div>
+
     </form>
 </body>
 </html>

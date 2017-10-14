@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
+using System.Xml.Xsl;
 
 public partial class Dairy : System.Web.UI.Page
 {
@@ -36,22 +37,34 @@ public partial class Dairy : System.Web.UI.Page
     [System.Web.Services.WebMethod]
     public static string GetDairyProductDetails(int id)
     {
-        string xml = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath("~/xmldata/dairyproducts.xml"));
-        XmlDocument doc = new XmlDocument();
-        doc.LoadXml(xml);
-        XmlNodeList nodes = doc.DocumentElement.SelectNodes("/dairyproducts/dairy[@id='" + id + "']");
-        //ideally id is unique so for loop will only run 1 time
-        DairyProductsModel dairy = null;
-        foreach (XmlNode node in nodes)
+        try
         {
-            dairy = new DairyProductsModel
-            {
-                Name = StaticHelpers.ToInnerText(node["name"]),
-                Calories = StaticHelpers.ToInnerText(node["calories"]),
-                Carbs = StaticHelpers.ToInnerText(node["carbs"]),
-                Cholesterol = StaticHelpers.ToInnerText(node["cholesterol"])
-            };
+            string xml = File.ReadAllText(System.Web.Hosting.HostingEnvironment.MapPath("~/xmldata/dairyproducts.xml"));
+            XmlDocument doc = new XmlDocument();
+            doc.LoadXml(xml);
+            XmlNodeList nodes = doc.DocumentElement.SelectNodes("/dairyproducts/dairy[@id='" + id + "']");
+
+            if (nodes == null || nodes.Count <= 0) return string.Empty;
+
+            // Load the style sheet.
+            XslCompiledTransform xslt = new XslCompiledTransform();
+            xslt.Load(System.Web.Hosting.HostingEnvironment.MapPath("~/xsl/dairyproducts.xsl"));
+
+            //prepare an xml document from the xmlnode
+            XmlDocument xmlDoc = new XmlDocument();
+            xmlDoc.LoadXml(nodes[0].OuterXml);
+
+            // Transform the file and output an HTML string.
+            string HTMLoutput;
+            StringWriter writer = new StringWriter();
+            xslt.Transform(xmlDoc, null, writer);
+            HTMLoutput = writer.ToString();
+            writer.Close();
+            return HTMLoutput;
         }
-        return Newtonsoft.Json.JsonConvert.SerializeObject(dairy);
+        catch (Exception ex)
+        {
+            return string.Empty;
+        }
     }
 }

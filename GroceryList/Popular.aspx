@@ -40,7 +40,7 @@
      <div class="row placeholders">
               <% foreach (var dairy in DairyProductsData) { %>
                 <div class="col-xs-6 col-sm-3 placeholder">
-                    <a href="javascript:void(0)" class="lnk-vegetable-details" data-id="<%= dairy.ID %>">
+                    <a href="javascript:void(0)" class="lnk-dairy-details" data-id="<%= dairy.ID %>">
                         <% if (string.IsNullOrEmpty(dairy.ImageName)) { %>
                          <img src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" width="200" height="200" class="img-responsive" alt="Generic placeholder thumbnail">
                         <% } else { %>

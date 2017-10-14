@@ -28,6 +28,20 @@ public static class StaticHelpers
         return stream;
     }
 
+    public static string ToString(this XmlNode node, int indentation)
+    {
+        using (var sw = new StringWriter())
+        {
+            using (var xw = new XmlTextWriter(sw))
+            {
+                xw.Formatting = Formatting.Indented;
+                xw.Indentation = indentation;
+                node.WriteContentTo(xw);
+            }
+            return sw.ToString();
+        }
+    }
+
     public static string ToInnerText(this XmlNode node)
     {
         if (node == null) return string.Empty;

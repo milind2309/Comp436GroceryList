@@ -1,0 +1,1 @@
+The images folder here is needed for jQuery UI Dialogs
