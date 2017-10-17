@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+	<Book>
+	<page number>198</page number>
+	<line>1</line>
+	<title> To the Lighthouse</title>
+		<Style> Underlined </Style>
+		<color> Black</color>
+	<line> 6</line>
+			<text> 3 </text>
+			<type>Chapter</type>
+			<style> font color </style>
+			<color> Blue</color>
+
+		<paragraph1>
+			<line> 4</line>
+			<text> green </text>
+			<style>highlight</style>
+			<color> Green</color>
+		</paragraph1>
+		
+		<paragraph2>
+			<line> 4 </line>
+			<text> the hare erect </text>
+			<style> bold font </style>
+			<color> Black</color>
+		</paragraph2>
+		</Book>
+	</catalog>
