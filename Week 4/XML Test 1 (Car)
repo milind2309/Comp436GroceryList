@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>
+	<cars>
+		
+	<car1> 
+		<type> Mustang </type>
+		<name> Ford Mustang</name>
+	    <year> 2016</year>
+	    <color>Yellow</color>
+	</car1>
+	
+	<car2> 
+	    <type> Hyundai </type>
+	    <name> Elantra</name>
+	    <year> 2017</year>
+	    <color>Black</color>
+		</car2> 
+		
+  </cars>
+	
+</catalog>
