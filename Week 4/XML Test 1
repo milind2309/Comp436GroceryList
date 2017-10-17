@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>
+	
+	<MucicalCDs>
+		
+	  <CD1>
+		<Album1> HIStory: Past, Present and Future, Book I </Album1>
+		   <SongA> 2 Bad</SongA>
+			<Singer> Michael Jackson</Singer>
+			<writers> Michael Jackson,Bruce Swedien,René Moore,Dallas Austin,Shaquille O'Neal</writers>
+			<length> 4:50</length>
+			 <relased>1995</relased>
+			
+			<SongB>Come Together</SongB>
+			<Singer> Michael Jackson</Singer>
+			<writers> John Lennon Paul McCartney</writers>
+			<length> 4:03</length>
+			<relased>1995</relased>
+			
+			<SongC>Money</SongC>
+			<Singer> Michael Jackson</Singer>
+			<writers> M.Jackson </writers>
+			<length>4:42</length>
+			<relased>1995</relased>
+
+			
+		 <Album2> Purpose  </Album2>
+			<SongA> Love Yourself</SongA>
+			<Singer> Justin Bieber</Singer>
+			<writers> Ed Sheeran, Benjamin Levin, Bieber</writers>
+			<length> 3:53</length>
+			<relased>2015</relased>
+			
+			<SongB> Sorry</SongB>
+			<Singer> Justin Bieber</Singer>
+			<writers> Bieber, Julia Michaels, Justin Tranter, Tucker, Moore</writers>
+			<length>3:20</length>
+			<relased>2015</relased>
+			
+			<SongC>Life Is Worth Living</SongC>
+			<Singer> Justin Bieber</Singer>
+			<writers> Bieber, Boyd, Mark "The Mogul" Jackson </writers>
+			<length>3:54</length>
+			<relased>2015</relased>
+	  </CD1>
+	
+   	<CD2> 
+		<Album1> Dangerously in Love</Album1>
+			<SongA> Crazy in Love</SongA>
+			<Singer>  Beyoncé </Singer>
+			<writers> Beyoncé, Rich Harrison, Eugene Record, Shawn Carter</writers>
+			<length> 3:56</length>
+			<relased>2003</relased>
+			
+            <SongB> Baby Boy</SongB>
+			<Singer> Beyoncé</Singer>
+			<writers> Knowles, Storch, Sean Paul Henriques, Waller, Carter</writers>
+			<length>4:04</length>
+			<relased>2003</relased>
+			
+            <SongC> Me, Myself and I</SongC>
+			<Singer> Beyoncé</Singer>
+			<writers> Knowles, Storch, Waller</writers>
+			<length> 5:01</length>
+			<relased>2003</relased>
+			
+	 <Album2> The Fame Monster </Album2>
+			<SongA> Monster</SongA>
+			<Singer> Lady Gaga</Singer>
+			<writers>Stefani Germanotta, RedOne, Space Cowboy</writers>
+			<length> 4:09</length>
+			<relased>2010</relased>
+			
+			<SongB> Dance in the Dark</SongB>
+			<Singer> Lady Gaga</Singer>
+			<writers> Stefani Germanotta, Fernando Garibay</writers>
+			<length>4:49</length>
+			<relased>2010</relased>
+			
+			<SongC>So Happy I Could Die</SongC>
+			<Singer> Lady Gaga</Singer>
+			<writers> Stefani Germanotta, RedOne, Space Cowboy </writers>
+			<length>3:55</length>
+			<relased>2010</relased>
+		</CD2> 
+    
+  </MucicalCDs>
+	</catalog>
