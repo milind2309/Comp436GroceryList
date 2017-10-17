@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalog>
+	<sportsteams>
+	  <team1> 
+		<name> Chicago Cubs </name>
+		<country> U.S</country>
+	    <city> Chicago</city>
+	    <color>Blue and white</color>
+	  </team1>
+	
+   	<team2> 
+	  <name> New York Mets </name>
+	  <country> U.S</country>
+	  <city> New York </city>
+	  <color>Blue and Orang</color>
+	</team2> 
+  </sportsteams>
+	</catalog>
