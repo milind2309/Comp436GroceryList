@@ -15,7 +15,6 @@
                         <% } %>
                     </a>
                   <h4><%= vegetable.Name %></h4>
-                  <span class="text-muted">Something else</span>
                 </div>          
                 <%  }   %> 
           </div>

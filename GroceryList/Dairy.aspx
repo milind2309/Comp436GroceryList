@@ -16,7 +16,6 @@
                         <% } %>
                     </a>
                   <h4><%= dairy.Name %></h4>
-                  <span class="text-muted">Something else</span>
                 </div>          
                 <%  }   %> 
           </div>

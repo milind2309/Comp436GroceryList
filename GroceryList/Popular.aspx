@@ -13,7 +13,6 @@
                         <% } %>
                     </a>
                   <h4><%= fruit.Name %></h4>
-                  <span class="text-muted">Something else</span>
                 </div>          
                 <%  }   %> 
     </div>
@@ -31,7 +30,6 @@
                         <% } %>
                     </a>
                   <h4><%= vegetable.Name %></h4>
-                  <span class="text-muted">Something else</span>
                 </div>          
                 <%  }   %> 
           </div>
@@ -48,7 +46,6 @@
                         <% } %>
                     </a>
                   <h4><%= dairy.Name %></h4>
-                  <span class="text-muted">Something else</span>
                 </div>          
                 <%  }   %> 
           </div>
