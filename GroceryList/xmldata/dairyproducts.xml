@@ -1,89 +1,262 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <dairyproducts>
-    <dairy id="1" popular="true" imagename="milk.jpg">
-      <name>Milk</name>
-      <type>1% fat</type>
-      <servingsize>1 cup (244 g)</servingsize>
-      <calories>103</calories>
-      <fat>2.4 g</fat>
-      <cholesterol>12 mg</cholesterol>
-      <sodium>107 mg</sodium>
-      <potassium>366 mg</potassium>
-      <carbs>12 g</carbs>
-      <protein>8 g</protein>
+  <dairy id="1" popular="true" imagename="milk.jpg">
+    <name>1% fat Milk</name>
+    <type>1% fat</type>
+    <servingsize>1 cup (244 g)</servingsize>
+    <calories>103</calories>
+    <fat>2.4 g</fat>
+    <cholesterol>12 mg</cholesterol>
+    <sodium>107 mg</sodium>
+    <potassium>366 mg</potassium>
+    <carbs>12 g</carbs>
+    <protein>8 g</protein>
+  </dairy>
+
+  <dairy id="2" popular="true" imagename="eggs.jpg">
+    <name>Eggs</name>
+    <servingsize>1 large (50 g)</servingsize>
+    <calories>72</calories>
+    <fat>4.8 g</fat>
+    <cholesterol>186 mg</cholesterol>
+    <sodium>71 mg</sodium>
+    <potassium>69 mg</potassium>
+    <carbs>0.4 g</carbs>
+    <protein>6 g</protein>
+  </dairy>
+
+  <dairy id="3" popular="true" imagename="yogurt.jpg">
+    <name>Nonfat Yogurt</name>
+    <type>nonfat</type>
+    <servingsize>1 container (170 g)</servingsize>
+    <calories>100</calories>
+    <fat>0.7 g</fat>
+    <cholesterol>9 mg</cholesterol>
+    <sodium>61 mg</sodium>
+    <potassium>240 mg</potassium>
+    <carbs>6 g</carbs>
+    <protein>17 g</protein>
+  </dairy>
+
+  <dairy id="4" popular="true" imagename="butter.jpg">
+    <name>Butter</name>
+    <servingsize>1 stick (113 g)</servingsize>
+    <calories>810</calories>
+    <fat>92 g</fat>
+    <cholesterol>243 mg</cholesterol>
+    <sodium>12 mg</sodium>
+    <potassium>27 mg</potassium>
+    <carbs>0.1 g</carbs>
+    <protein>1 g</protein>
+  </dairy>
+
+  <dairy id="5" popular="true" imagename="cheese.jpg">
+    <name>American Cheese</name>
+    <type>
+      American</type>
+      <servingsize>1 slice (1 oz) (28g) </servingsize>
+      <calories>104</calories>
+      <fat>9 g</fat>
+      <cholesterol>28 mg</cholesterol>
+      <sodium>468 mg</sodium>
+      <potassium>37 mg</potassium>
+      <carbs>1 g</carbs>
+      <protein>5 g</protein>
     </dairy>
 
-    <dairy id="2" popular="true" imagename="eggs.jpg">
-      <name>Egg</name>
-      <servingsize>1 large (50 g)</servingsize>
-      <calories>72</calories>
-      <fat>4.8 g</fat>
-      <cholesterol>186 mg</cholesterol>
-      <sodium>71 mg</sodium>
-      <potassium>69 mg</potassium>
-      <carbs>0.4 g</carbs>
-      <protein>6 g</protein>
-    </dairy>
+  <dairy id="6" popular="true" imagename="chocolateicecream.jpg">
+    <name>Chocolate Icecream</name>
+    <servingsize>1 serving 1/2 cup (66 g)</servingsize>
+    <calories>143</calories>
+    <fat>7 g</fat>
+    <cholesterol>22 mg</cholesterol>
+    <sodium>50 mg</sodium>
+    <potassium>164 mg</potassium>
+    <carbs>5 g</carbs>
+    <protein>2.5 g</protein>
+  </dairy>
 
-    <dairy id="3" popular="true" imagename="yogurt.jpg">
-      <name>Yogurt</name>
-      <type>nonfat</type>
-      <servingsize>1 container (170 g)</servingsize>
-      <calories>100</calories>
-      <fat>0.7 g</fat>
-      <cholesterol>9 mg</cholesterol>
-      <sodium>61 mg</sodium>
-      <potassium>240 mg</potassium>
-      <carbs>6 g</carbs>
-      <protein>17 g</protein>
-    </dairy>
+  <dairy id="7" imagename="vanillaicecream.jpg">
+    <name>Vanilla icecream</name>
+    <servingsize>1 serving 1/2 cup (66 g)</servingsize>
+    <calories>137</calories>
+    <fat>7 g</fat>
+    <cholesterol>29 mg</cholesterol>
+    <sodium>53 mg</sodium>
+    <potassium>131 mg</potassium>
+    <carbs>16 g</carbs>
+    <protein>2.3 g</protein>
+  </dairy>
 
-    <dairy id="4" popular="true" imagename="butter.jpg">
-      <name>Butter</name>
-      <servingsize>1 stick (113 g)</servingsize>
-      <calories>810</calories>
-      <fat>92 g</fat>
-      <cholesterol>243 mg</cholesterol>
-      <sodium>12 mg</sodium>
+  <dairy id="8" imagename="2percentmilk.jpg">
+    <name>2% fat Milk</name>
+    <type>2% fat</type>
+    <servingsize>1 cup (246 g)</servingsize>
+    <calories>124</calories>
+    <fat>4.9 g</fat>
+    <cholesterol>20 mg</cholesterol>
+    <sodium>116 mg</sodium>
+    <potassium>344 mg</potassium>
+    <carbs>12 g</carbs>
+    <protein>8 g</protein>
+  </dairy>
+
+  <dairy id="9" imagename="3.7percentmilk.jpg">
+    <name>3.7% fat Milk</name>
+    <type>3.7% fat</type>
+    <servingsize>1 cup (244 g)</servingsize>
+    <calories>156</calories>
+    <fat>9 g</fat>
+    <cholesterol>34 mg</cholesterol>
+    <sodium>120 mg</sodium>
+    <potassium>368 mg</potassium>
+    <carbs>11 g</carbs>
+    <protein>8 g</protein>
+  </dairy>
+
+  <dairy id="10" popular="true" imagename="wholemilk.jpg">
+    <name>Whole Milk</name>
+    <type> Whole, 3.25% fat</type>
+    <servingsize>1 cup (244 g)</servingsize>
+    <calories>148</calories>
+    <fat>8 g</fat>
+    <cholesterol>24 mg</cholesterol>
+    <sodium>105 mg</sodium>
+    <potassium>322 mg</potassium>
+    <carbs>12 g</carbs>
+    <protein>8 g</protein>
+  </dairy>
+
+  <dairy id="11" imagename="powderedmilk.jpg">
+    <name>Powdered Milk</name>
+    <type>Powdered Milk</type>
+    <servingsize>1 cup (128 g)</servingsize>
+    <calories>635</calories>
+    <fat>34 g</fat>
+    <cholesterol>124 mg</cholesterol>
+    <sodium>475 mg</sodium>
+    <potassium>1702 mg</potassium>
+    <carbs>49 g</carbs>
+    <protein>34 g</protein>
+  </dairy>
+
+  <dairy id="12" imagename="nonfatmilk.jpg">
+    <name>NonFat Milk</name>
+    <type>NonFat</type>
+    <servingsize>1 cup (245 g)</servingsize>
+    <calories>83</calories>
+    <fat>0.2 g</fat>
+    <cholesterol>5 mg</cholesterol>
+    <sodium>103 mg</sodium>
+    <potassium>382 mg</potassium>
+    <carbs>12 g</carbs>
+    <protein>8 g</protein>
+  </dairy>
+
+  <dairy id="13" popular="true" imagename="cheddarcheese.jpg">
+    <name>Cheese</name>
+    <type>
+      Cheddar</type>
+      <servingsize>1 slice (1 oz) (28 g)</servingsize>
+      <calories>113</calories>
+      <fat>9 g</fat>
+      <cholesterol>29 mg</cholesterol>
+      <sodium>174 mg</sodium>
       <potassium>27 mg</potassium>
-      <carbs>0.1 g</carbs>
-      <protein>1 g</protein>
-    </dairy>
-
-    <dairy id="5" popular="true" imagename="cheese.jpg">
-      <name>Cheese</name>
-      <servingsize>100g</servingsize>
-      <calories>380</calories>
-      <fat>28 g</fat>
-      <cholesterol>92 mg</cholesterol>
-      <sodium>192 mg</sodium>
-      <potassium>77 mg</potassium>
-      <carbs>5 g</carbs>
+      <carbs>0.4 g</carbs>
       <protein>27 g</protein>
     </dairy>
 
-    <dairy id="6" popular="true" imagename="chocolateicecream.jpg">
-      <name>Chocolate Icecream</name>
-      <servingsize>1 serving 1/2 cup (66 g)</servingsize>
-      <calories>143</calories>
-      <fat>7 g</fat>
-      <cholesterol>22 mg</cholesterol>
-      <sodium>50 mg</sodium>
-      <potassium>164 mg</potassium>
-      <carbs>5 g</carbs>
-      <protein>2.5 g</protein>
+  <dairy id="14" imagename="bluecheese.jpg">
+    <name>Blue Cheese</name>
+    <type>
+      Blue</type>
+      <servingsize>1 cup (135g)</servingsize>
+      <calories>477</calories>
+      <fat>39 g</fat>
+      <cholesterol>101 mg</cholesterol>
+      <sodium>1883 mg</sodium>
+      <potassium>346 mg</potassium>
+      <carbs>3.2 g</carbs>
+      <protein>29 g</protein>
     </dairy>
 
-    <dairy id="7" popular="true" imagename="vanillaicecream.jpg">
-      <name>Vanilla icecream</name>
-      <servingsize>1 serving 1/2 cup (66 g)</servingsize>
-      <calories>137</calories>
-      <fat>7 g</fat>
-      <cholesterol>29 mg</cholesterol>
-      <sodium>53 mg</sodium>
-      <potassium>131 mg</potassium>
-      <carbs>16 g</carbs>
-      <protein>2.3 g</protein>
+  <dairy id="15" imagename="Camembertcheese.jpg">
+    <name>Camembert Cheese</name>
+    <type>
+      Camembert</type>
+      <servingsize>1 cup (246 g)</servingsize>
+      <calories>477</calories>
+      <fat>39 g</fat>
+      <cholesterol>101 mg</cholesterol>
+      <sodium>1883 mg</sodium>
+      <potassium>346 mg</potassium>
+      <carbs>3.2 g</carbs>
+      <protein>29 g</protein>
     </dairy>
+
+  <dairy id="16" popular="true" imagename="mozzarellacheese.jpg">
+    <name>Mozzarella Cheese</name>
+    <type>Mozzarella, low sodium</type>
+      <servingsize>1 slice (1oz) (28 g)</servingsize>
+      <calories>78</calories>
+      <fat>4.8 g</fat>
+      <cholesterol>15 mg</cholesterol>
+      <sodium>4 mg</sodium>
+      <potassium>27 mg</potassium>
+      <carbs>0.9 g</carbs>
+      <protein>8 g</protein>
+    </dairy>
+
+  <dairy id="17" imagename="soyyogurt.jpg">
+    <name>Soy Yogurt</name>
+    <type>Soy</type>
+    <servingsize>1 cup (262 g)</servingsize>
+    <calories>247</calories>
+    <fat>4.7 g</fat>
+    <cholesterol>0 mg</cholesterol>
+    <sodium>92 mg</sodium>
+    <potassium>123 mg</potassium>
+    <carbs>42 g</carbs>
+    <protein>9 g</protein>
+  </dairy>
+
+  <dairy id="18" imagename="fruitvariety.jpg">
+    <name>Fruit Yogurt</name>
+    <type>Fruit Variety, nonfat</type>
+    <servingsize>1 cup (245 g)</servingsize>
+    <calories>234</calories>
+    <fat>0.5 g</fat>
+    <cholesterol>5 mg</cholesterol>
+    <sodium>142 mg</sodium>
+    <potassium>475 mg</potassium>
+    <carbs>47 g</carbs>
+    <protein>9 g</protein>
+  </dairy>
+
+  <dairy id="19" imagename="shortening.jpg">
+    <name>Shortening</name>
+    <type>Coconut or Palm Kernel (hydrogenated)</type>
+    <servingsize>1 tbsp (12.8 g)</servingsize>
+    <calories>113</calories>
+    <fat>13 g</fat>
+    <cholesterol>0 mg</cholesterol>
+    <sodium>0 mg</sodium>
+    <potassium>0 mg</potassium>
+    <carbs>0 g</carbs>
+    <protein>0 g</protein>
+  </dairy>
+
+  <dairy id="20" popular="true" imagename="whippedcream.jpg">
+    <name>Whipped cream</name>
+    <servingsize>1 cup (60 g)</servingsize>
+    <calories>154</calories>
+    <fat>13 g</fat>
+    <cholesterol>46 mg</cholesterol>
+    <sodium>5 mg</sodium>
+    <potassium>88 mg</potassium>
+    <carbs>7 g</carbs>
+    <protein>1.9 g</protein>
+  </dairy>
 
 </dairyproducts>
