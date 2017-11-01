@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="ancient-
+sites.xsl"?>
+
+<xsl:stylesheet version="1.0"
+
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+
+<html>
+
+<body>
+
+<h3>ancient_sites</h3>
+
+<xsl:apply-templates select="ancient_sites/site">
+
+
+<xsl:sort select="location" order="ascending" data-type="string" />
+
+<xsl:sort select="country" order="ascending" data-type="string"/>
+
+<xsl:sort select="describtion" order="ascending" data-type="string"/>
+
+<xsl:sort select="culture" order="ascending" data-type="string"/>
+
+<xsl:sort select="history" order="ascending" data-type="string"/>
+
+<xsl:sort select="image" order="ascending" data-type="string"/>
+
+</xsl:apply-templates>
+
+</body>
+
+</html>
+
+<xsl:template match="site">
+
+<xsl:apply-templates select="namelang='en']"/>
+
+</xsl:template>
+
+<xsl:template match="name[statue of Liberty='en']">
+
+<xsl:value-of select="."/>
+
+</xsl:template>

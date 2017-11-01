@@ -1,0 +1,7 @@
+﻿<xsl:apply-templates select="images"/>
+...
+<xsl:template match="images">
+<td>
+<xsl:value-of select="image[@type='jpg'][position() = last()]"/>
+</td>
+</xsl:template>

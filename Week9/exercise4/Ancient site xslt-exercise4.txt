@@ -1,0 +1,27 @@
+﻿Excersise 4:
+
+	<xsl:template match="site">
+	<tr>
+	<xsl:apply-templates select="name@language='english']"/>
+	<xsl:apply-templates select="history"/>
+	</tr>
+	</xsl:template>
+	...
+	<xsl:template match="history">
+	<td>
+		<xsl:value of select= "year"/>
+		<xsl:text>&#160;</xsl:text>
+		<xsl:value of select= "year/@dedicated"/>
+	</td>
+	
+	<td>
+	<xsl:value of select= "./dynasty"/>
+	<xsl:text>&#160; dynasty</xsl:text>
+	</td>
+	
+	<td>
+		<xsl:value of select= "year"/>
+		<xsl:text>&#160;</xsl:text>
+		<xsl:value of select= "year/@construction_started"/>
+	</td>
+	</xsl:templates>

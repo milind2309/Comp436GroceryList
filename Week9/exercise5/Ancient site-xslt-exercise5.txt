@@ -1,0 +1,12 @@
+﻿<xsl:apply-templates select=links/overview[@type='general']"/>
+	...
+	<xsl:template match="links/overview[@type='general']">
+	<td>
+	<a>
+	<xsl:attribute name <href = "https://www.nps.gov/stli/index.htm">
+	<xsl:value-of select="./@url"/>
+	<xsl:attribute>
+	<xsl:value-of select=","/>
+	</a>
+	</td>
+	</xsl:templates>

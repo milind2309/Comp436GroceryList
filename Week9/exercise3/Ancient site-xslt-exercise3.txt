@@ -1,0 +1,15 @@
+﻿Excersise 3:
+	<xsl:template match="ancient_Sites">
+	<tr>
+	<xsl:apply-templates select="name@language='english']"/>
+	<xsl:apply-templates select="history"/>
+	</tr>
+	</xsl:template>
+	...
+	<xsl:template match="history">
+	<td>
+		<xsl:value of select= "year dedicated"/>
+		<xsl:value of select= "century"/>
+	</td>
+	</xsl:templates>
+	
