@@ -1,0 +1,134 @@
+Exercise 13 XML
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+
+
+
+
+<ancient_sites>
+
+     <site>
+
+          <name language="English">Statue of Liberty</name>
+
+          <location> Liberty Island</location>
+
+          <city>New York</city>
+
+          <address> New York, NY 10004 </address>
+
+          <country>US</country>
+
+          <describtion>The copper statue, a gift from the people of France to the people of the United  
+           States. </describtion>
+     <dimensions>          
+      <height type= “original” unit=“feet”>151 </height>
+      <height type= “total” unit=“feet”>305</height>
+
+      
+
+</dimensions>
+
+          <designers>was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave 
+           Eiffel.</designers>
+
+          <culture> Historical statue in US </culture>
+
+
+
+
+     <history> 
+
+
+          <year>October 28, 1886.</year>
+
+          <century>19th</century>
+
+          <construction range=“start” >1875</construction>
+          <construction range=“end” >1884</construction>
+
+
+     </history>
+
+
+   <images>
+
+         <image name="statueofliberty.jpg" type="jpg"> Statue of Liberty</image>
+         <image name=“newyork.jpg" type="jpg"> New York</image>
+         <image name=“downtown .jpg"type="jpg"> Down Town</image>
+         <image name=“Islandofliberty.jpg"type="jpg"> Island of Liberty</image>
+
+   </images>
+
+            <links>	
+				<overview type="general" url="https://www.nps.gov/stli/index.htm">nps</overview>
+				<overview type=“general” url="https://en.wikipedia.org/wiki/Statue_of_Liberty">wikipedia</overview>
+			</links>
+
+
+
+<notes>
+  <note type=“intro”> 
+
+The Statue of Liberty Enlightening the World" was a gift of friendship from the people of France to the United States and is recognized as a universal symbol of freedom and democracy. The Statue of Liberty was dedicated on October 28, 1886.  It was designated as a National Monument in 1924.  Employees of the National Park Service have been caring for the colossal copper statue since 1933.
+  </note>
+
+</notes>
+     </site>
+
+<ancient_sites>
+
+
+Exercise 13 XSLT
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+
+
+
+
+<xsl:stylesheet version="1.0"xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+
+<xsl:template match="/">
+
+
+<html>
+
+<body>
+
+<h3>ancient_sites</h3>
+
+
+<xsl:apply-templates select="ancient_sites/site">
+
+<xsl:template match="links/overview[@type='general']">	
+	  <td>
+	    <a>
+	      <xsl:attribute name="href">
+	        <xsl:value-of select="./@url"/>
+	      </xsl:attribute>
+	      <xsl:value-of select="translate(., 'w', 'W')"/>
+	    </a>
+	  </td>
+	</xsl:template>
+
+</xsl:apply-templates>
+
+</body>
+
+</html>
+
+</xsl:template>
+</xsl:stylesheet>
+
+

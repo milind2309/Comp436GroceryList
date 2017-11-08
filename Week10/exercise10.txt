@@ -1,0 +1,107 @@
+
+Exercise 10 XML:
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+
+
+<ancient_sites>
+     <site>
+
+          <name language="English">Statue of Liberty</name>
+
+          <location> Liberty Island</location>
+
+          <city>New York</city>
+
+          <address> New York, NY 10004 </address>
+
+          <country>US</country>
+
+          <describtion>The copper statue, a gift from the people of France to the people of the United  
+           States. </describtion>
+
+          <height> Height of copper statue (to torch): 151 feet 1 inch From ground level to torch: 305 feet   
+           1 inch </height>
+
+          <designers>was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave 
+           Eiffel.</designers>
+
+          <culture> Historical statue in US </culture>
+
+
+
+
+     <history> 
+
+
+          <year>October 28, 1886.</year>
+
+          <century>19th</century>
+
+          <construction range="start" >1875</construction>
+          <construction range="end" >1884</construction>
+
+
+     </history>
+
+
+<images>
+
+         <image name="statueofliberty.jpg" type="jpg"> Statue of Liberty</image>
+         <image name=“newyork.jpg" type="jpg"> New York</image>
+         <image name=“downtown .jpg"type="jpg"> Down Town</image>
+         <image name=“Islandofliberty.jpg"type="jpg"> Island of Liberty</image>
+
+</images>
+
+
+
+
+     </site>
+
+<ancient_sites>
+
+
+
+Exercise 10 XSLT:
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+
+<xsl:stylesheet version="1.0"xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+<xsl:template match="/">
+
+<html>
+<body>
+
+<h3>ancient_sites</h3>
+
+<xsl:template match="site">	
+	  
+	
+	
+	    <xsl:choose>
+	      <xsl:when test="dimensions">
+	        <xsl:apply-templates select="dimensions"/>
+	      </xsl:when>
+	      <xsl:otherwise>
+	        <td>
+	          N/A
+	        </td>
+	      </xsl:otherwise>
+	    </xsl:choose>
+</xsl:template>
+
+<xsl:template match="dimensions">	
+	  <td>
+	    <xsl:value-of select="format-number(./hight* ./hight, '0.#')"/> feet<sup></sup>
+	  </td>
+	</xsl:template>
+
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>
+

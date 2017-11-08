@@ -1,0 +1,75 @@
+Exercise 9 XML:
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+
+<ancient_sites>
+
+     <site>
+
+          <name language="English">Statue of Liberty</name>
+
+          <location> Liberty Island</location>
+
+          <city>New York</city>
+
+          <address> New York, NY 10004 </address>
+
+          <country>US</country>
+
+          <describtion>The copper statue, a gift from the people of France to the people of the United States. </describtion>
+
+          <height> Height of copper statue (to torch): 151 feet 1 inch From ground level to torch: 305 feet 1 inch </height>
+
+          <designers>was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave Eiffel.</designers>
+
+          <culture> Historical statue in US </culture>
+
+
+     <history> 
+          <year>October 28, 1886.</year>
+          <century>19th</century>
+          <construction range="start" >1875</construction>
+          <construction range="end" >1884</construction>
+     </history>
+
+
+     <images>
+         <image name="statueofliberty.jpg"> statue of liberty</image>
+     </images>
+
+     </site>
+
+<ancient_sites>
+
+
+
+Exercise 9 XSLT:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+<xsl:template match="/">
+<html>
+<body>
+
+<h3>ancient_sites</h3>
+
+<xsl:choose>
+
+<xsl:when test= "construction[@range=‘end’]">
+ 
+
+<xsl:select-value of select= "construction [@range=‘start’] - construction[@range=‘end’]"/>
+</xsl:when>
+
+<xsl:otherwise>
+<xsl:select-value of select= "construction [@range=‘start’]+2017"/>
+
+</xsl:otherwise>
+</xsl:choose>
+</body>
+</html>
+</xsl:template>
+</xsl:stylesheet>

@@ -1,0 +1,113 @@
+Exercise 11 XML:
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+
+
+
+
+<ancient_sites>
+
+     <site>
+
+          <name language="English">Statue of Liberty</name>
+
+          <location> Liberty Island</location>
+
+          <city>New York</city>
+
+          <address> New York, NY 10004 </address>
+
+          <country>US</country>
+
+          <describtion>The copper statue, a gift from the people of France to the people of the United  
+           States. </describtion>
+     <dimensions>          
+      <height type= “original” unit=“feet”>151 </height>
+      <height type= “total” unit=“feet”>305</height>
+
+      
+
+</dimensions>
+
+          <designers>was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave 
+           Eiffel.</designers>
+
+          <culture> Historical statue in US </culture>
+
+
+
+
+     <history> 
+
+
+          <year>October 28, 1886.</year>
+
+          <century>19th</century>
+
+          <construction range=“start” >1875</construction>
+          <construction range=“end” >1884</construction>
+
+
+     </history>
+
+
+<images>
+
+         <image name="statueofliberty.jpg" type="jpg"> Statue of Liberty</image>
+         <image name=“newyork.jpg" type="jpg"> New York</image>
+         <image name=“downtown .jpg"type="jpg"> Down Town</image>
+         <image name=“Islandofliberty.jpg"type="jpg"> Island of Liberty</image>
+
+</images>
+
+     </site>
+
+<ancient_sites>
+
+Exercise XSLT 11:
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+
+
+<xsl:stylesheet version="1.0"xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+
+<xsl:template match="/">
+
+
+<html>
+
+
+<body>
+
+
+
+<h3>ancient_sites</h3>
+
+
+<xsl:apply-templates select="ancient_sites/site">
+
+
+<xsl:template match=“dimensions”>
+<td>
+approx.<xsl:value-of select="copper statue(./height * ./height)"/>feet<sup> </sup>
+
+</td>
+</xsl:template>
+</xsl:apply-templates>
+
+
+</body>
+
+</html>
+</xsl:template>
+</xsl:stylesheet>
+
