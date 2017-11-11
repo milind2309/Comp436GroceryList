@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+<ancient_sites>
+  <site>
+    <name language="english">Statue of Liberty</name>
+    <location>Liberty Island</location>
+    <address> New York, NY 10004 </address>
+    <city>New York</city>
+    <country>USA</country>
+    <description>The copper statue, a gift from the people of France to the people of the United States.</description>
+    <culture>Historical statue in US</culture>
+    <designers>was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave Eiffel.</designers>
+    <history>
+      <year era="BC">1886</year>
+      <century>19th</century>
+      <construction_started>September 1875</construction_started>
+    </history>
+    <images>
+      <image size="thumb" type="jpg">Statue of Liberty thumbnail</image>
+      <image size="large" type="png">Statue of Liberty large</image>
+      <image size="full" type="jpg">Statue of Liberty full</image>
+    </images>
+    <links>
+      <overview type="general" url="https://en.wikipedia.org/wiki/Statue_of_Liberty">wikipedia</overview>
+    </links>
+    
+    <notes>...</notes>
+  </site>
+</ancient_sites>
