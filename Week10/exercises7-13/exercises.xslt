@@ -51,14 +51,14 @@
           <h1>Ancient Sites</h1>
           <p>A catalogue of Ancient Sites</p>
         </header>
-        
+
         <table summary="Tourist sites">
           <caption>Tourist sites</caption>
           <thead>
             <tr>
               <th>Site</th>
               <th>Year Built</th>
-              <th>Dynasty</th>
+              <th>Century</th>
               <th>Years Extant</th>
               <th>Size</th>
               <th>Overview</th>
@@ -73,13 +73,13 @@
             </xsl:apply-templates>
           </tbody>
         </table>
-      <table summary="Historical sites">
+        <table summary="Historical sites">
           <caption>Historical sites</caption>
           <thead>
             <tr>
               <th>Site</th>
               <th>Year Built</th>
-              <th>Dynasty</th>
+              <th>Century</th>
               <th>Years Extant</th>
               <th>Size</th>
               <th>Overview</th>
@@ -93,8 +93,8 @@
               <xsl:sort select="year" order="descending" data-type="number" />
             </xsl:apply-templates>
           </tbody>
-        </table> 
-        </body>
+        </table>
+      </body>
     </html>
   </xsl:template>
 
