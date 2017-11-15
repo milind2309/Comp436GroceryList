@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="ancient-sites.xsl"?>
+<ancient_sites>
+  <site>
+    <name language="english">Statue of Liberty</name>
+    <location>Liberty Island</location>
+    <address> New York, NY 10004 </address>
+    <city>New York</city>
+    <country>USA</country>
+    <description>The copper statue, a gift from the people of France to the people of the United States.</description>
+    <culture>Historical statue in US</culture>
+    <designers>was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave Eiffel.</designers>
+    <history>
+      <period>Tourist sites</period>
+      <century>19th</century>
+      <year range="start">1975</year>
+      <year range="end">1986</year>
+
+    </history>
+    <images>
+      <image size="thumb" type="jpg">Statue of Liberty thumbnail</image>
+      <image size="large" type="png">Statue of Liberty large</image>
+      <image size="full" type="jpg" url="http://www.flyuts.com/tours/media/800px-Statue_of_Liberty,_NY.jpg1307699800.jpg">Statue of Liberty full</image>
+    </images>
+    <links>
+      <overview type="general" url="https://en.wikipedia.org/wiki/Statue_of_Liberty">wikipedia</overview>
+    </links>
+
+    <notes>
+      <note type="intro">
+        The Statue of Liberty (Liberty Enlightening the World; French: La Liberté éclairant le monde) is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States. The copper statue, a gift from the people of France to the people of the United States, was designed by French sculptor Frédéric Auguste Bartholdi and built by Gustave Eiffel. The statue was dedicated on October 28, 1886. The Statue of Liberty is a figure of a robed woman representing Libertas, a Roman goddess. She holds a torch above her head with her right hand, and in her left hand carries a tabula ansata inscribed in Roman numerals with "JULY IV MDCCLXXVI" (July 4, 1776), the date of the U.S. Declaration of Independence. A broken chain lies at her feet. The statue became an icon of freedom and of the United States, and was a welcoming sight to immigrants arriving from abroad.
+      </note>
+    </notes>
+  </site>
+
+  <site>
+    <name language="english">Big Ben</name>
+    <location>London</location>
+    <address> Westminster, London SW1A 0AA, UK </address>
+    <city>Westminster</city>
+    <country>UK</country>
+    <description>Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London and is usually extended to refer to both the clock and the clock tower.</description>
+    <culture> the tower is one of the most prominent symbols of the United Kingdom and is often in the establishing shot of films set in London</culture>
+    <designers> Charles Barry and Augustus Pugin</designers>
+    <history>
+      <period>Historical sites</period>
+      <year>1859</year>
+      <century>19th</century>
+      <year range="start">1858</year>
+      <year range="end">1859</year>
+    </history>
+    <dimensions>
+      <height type="original" unit="feet">315</height>
+      <width type="original" unit="feet">50.5</width>
+      <width type="current" unit="feet">51.2</width>
+    </dimensions>
+    <images>
+      <image size="large" type="png">Big Ben large</image>
+      <image size="full" type="jpg"  url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Westminster_Palace.jpg/300px-Westminster_Palace.jpg">Big Ben full</image>
+    </images>
+    <links>
+      <overview type="general" url="https://en.wikipedia.org/wiki/Big_Ben">wikipedia</overview>
+    </links>
+
+    <notes>
+      <note type="intro">
+        Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London and is usually extended to refer to both the clock and the clock tower.[2][3] The tower is officially known as Elizabeth Tower, renamed to celebrate the Diamond Jubilee of Elizabeth II in 2012; previously, it was known simply as the Clock Tower. When completed in 1859, it was, says clockmaker Ian Westworth, “the prince of timekeepers: the biggest, most accurate four-faced striking and chiming clock in the world.” The tower had its 150th anniversary on 31 May 2009, during which celebratory events took place. A British cultural icon, the tower is one of the most prominent symbols of the United Kingdom and is often in the establishing shot of films set in London. On 21 August 2017, the tower began a four-year period of renovation. With a few exceptions, the tower's renowned bells will be silent until the renovation is complete.
+      </note>
+    </notes>
+  </site>
+</ancient_sites>
